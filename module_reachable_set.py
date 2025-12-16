@@ -1,4 +1,4 @@
-import daceypy_import_helper  # noqa: F401
+#import daceypy_import_helper  # noqa: F401
 from typing import Callable, Type
 import numpy as np
 import math
@@ -12,7 +12,7 @@ from scipy.optimize import fsolve
 from daceypy import DA, RK, array, integrator, ADS
 from module_integrator import RK78, base_propagation, advanced_propagation
 from module_orbit_dynamics import TBP_dynamics, TBP_J2_dynamics, CRTBP_dynamics
-from module_plot import plot_envelope_equation, plot_envelope_points
+#from module_plot import plot_envelope_equation, plot_envelope_points
 from module_envelope_equation_map import envelope_equation_partial_map_inversion
 import time
 import warnings
